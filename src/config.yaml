@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Nate Yomtoob
+  site: 'https://nateyomtoob.com'
   base: '/'
   trailingSlash: false
 
@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: Nate Yomtoob
     template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: "\U0001F680 Hi, I'm Nate Yomtoob, a tech guy, sports enthusiast, and lifelong learner. I share my thoughts on programming, technology, and life in general. Welcome to my personal blog!"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Nate Yomtoob
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: '@yomtoob'
+    site: '@yomtoob'
     cardType: summary_large_image
 
 i18n:
