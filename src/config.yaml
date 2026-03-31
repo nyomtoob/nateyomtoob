@@ -11,12 +11,12 @@ metadata:
   title:
     default: Nate Yomtoob
     template: '%s — AstroWind'
-  description: "\U0001F680 Personal website of Nate Yomtoob, figuring out what to put here."
+  description: "\U0001F680 Hi, I'm Nate Yomtoob, a tech guy, sports enthusiast, and lifelong learner. I share my thoughts on programming, technology, and life in general. Welcome to my personal blog!"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Nate Yomtoob
     images:
       - url: '~/assets/images/default.png'
         width: 1200
