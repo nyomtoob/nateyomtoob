@@ -12,7 +12,6 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-
   <!-- Hero Widget ******************* -->
 
   <Hero
@@ -25,9 +24,7 @@ const metadata = {
       Welcome, I'm <span class="text-accent light:text-blue">Nate</span>
     </Fragment>
 
-    <Fragment slot="subtitle">
-       Using this to hold myself accountable to writing more and to keep learning.
-    </Fragment>
+    <Fragment slot="subtitle"> Using this to hold myself accountable to writing more and to keep learning. </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
@@ -42,7 +39,8 @@ const metadata = {
     items={[
       {
         title: 'Sports',
-        description: 'Football, basketball, and NASCAR: classic game stories, takes, analysis, and statistical overview.',
+        description:
+          'Football, basketball, and NASCAR: classic game stories, takes, analysis, and statistical overview.',
         icon: 'tabler:ball-basketball',
       },
       {
@@ -60,9 +58,5 @@ const metadata = {
 
   <!-- Latest Posts ****************** -->
 
-  <BlogLatestPosts
-    title="Latest posts"
-    information="The latest from the blog — new posts added regularly."
-  />
-
+  <BlogLatestPosts title="Latest posts" information="The latest from the blog — new posts added regularly." />
 </Layout>
